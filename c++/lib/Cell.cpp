@@ -6,7 +6,6 @@ class Cell {
     bool hasBottomWall = true;
     bool hasRightWall = true;
     bool isVisited = false;
-	std::string direction = "";
 
     Cell(int x = 0, int y = 0) {
         this->x = x;
@@ -32,6 +31,5 @@ void Cell::print() {
     std::cout << "y: " << y << ", ";
     std::cout << "hasBottomWall: " << hasBottomWall << ", ";
     std::cout << "hasRightWall: " << hasRightWall << ", ";
-    std::cout << "isVisited: " << isVisited << ", ";
-	std::cout << "direction: " << direction << std::endl;
+    std::cout << "isVisited: " << isVisited << std::endl;
 }
